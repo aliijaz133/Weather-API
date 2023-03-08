@@ -1,0 +1,3 @@
+Api Key: e5a9acb7dd5ee7202d9a0dd5416972e4m
+
+Api Link: api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=e5a9acb7dd5ee7202d9a0dd5416972e4
