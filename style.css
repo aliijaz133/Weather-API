@@ -1,0 +1,121 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  padding: 0%;
+}
+
+body {
+  background: linear-gradient(45deg, rgb(40, 210, 216), rgb(12, 12, 114));
+  background-repeat: no-repeat;
+  height: fit-content;
+}
+
+::selection {
+  background: #ff0000;
+  color: #f0ffff;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.top-title {
+  background-color: #13103a;
+  padding: 10px 0%;
+  position: sticky;
+  overflow: hidden;
+  top: 0%;
+}
+
+#main-title__style {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+#menu {
+  background-color: #dfd6e7;
+  padding-top: 500px;
+  margin-top: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  gap: 0%;
+}
+
+@media (max-width: 320px) {
+  * {
+    margin: 0%;
+    box-sizing: border-box;
+    width: auto;
+    word-wrap: break-word;
+  }
+
+  .form-container {
+    max-width: fit-content;
+  }
+
+  .top-title,
+  #text-box,
+  #selection-group {
+    width: auto;
+  }
+}
+
+#selection-group {
+  width: 8rem;
+  font-size: 1rem;
+  border: 2px solid #000000;
+  background: #ffffff;
+}
+
+#text-box {
+  width: 20rem;
+  padding: 8px;
+  border: 2px solid #000000;
+  border-right: none;
+  font-size: 1rem;
+  background: #ffffff;
+}
+
+#search-icon {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-left: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#weather-forecasts {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: #f0ffff;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: center;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  font-size: 1.3rem;
+}
+
+th {
+  background: #776666;
+  color: #d3d3d3;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  width: 100px;
+}
+td {
+  text-align: center;
+  background: #d3d3d3;
+  color: #000000;
+}
